@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Data analysis in oceanography</h1>
+					<h3 class="fragment">Or python course for begginers</h3>
+					
+					<p>
+						<small><a href="https://github.com/koldunovn">Nikolay Koldunov</a> / <a href="http://twitter.com/oceanographer">@oceanographer</a>
+                        / <a href="mailto:koldunovn@gmail.com">koldunovn@gmail.com</a>
+						</small>
+					</p>
+				</section>
+
+				<section>
+						<h2>About myself</h2>
+					<ul>
+						<li>B.S and M.S in Oceanography and Polar Science (St. Petersburg, Bremen)</li>
+						<li>Ph.D in Oceanography from Hamburg University</li>
+						<li>Work in MPI-M and IFM</li>
+						<li>Now at Climate Service Center Germany (GERICS)</li>
+					</ul>
+				</section>
+
+                
+				<section>
+						<h2>About this course</h2>
+					<ul>
+						<li>Work with different types of data</li>
+						<li>Handle different data formats</li>
+						<li>Visualize data</li>
+						<li>We are going to do all this in Python</li>
+					</ul>
+				</section>
+                
+                <section>
+	            
+	                <section>
+					<h2>Work with different types of data</h2>
+					</section>
+
+                    <section>
+                    	<h3>Time series<h3>
+                    		<img src="amo.jpg">
+                    </section>
+
+                    <section>
+                    	<h3>2d raster data<h3>
+                    		<img src="2d.png" height="600">
+                    </section>
+                    
+                    <section>
+                    	<h3>2d vector data<h3>
+                    		<img src="2d_vector.jpg" height="600">
+                    </section>
+                    <section>
+                    	<h3>3d data<h3>
+                    		<img src="3d.jpg" height="600">
+                    </section>
+                </section>
+
+                <section>
+	            
+	                <section>
+					<h2>Handle different data formats</h2>
+					</section>
+
+                    <section>
+                    	<h3>ASCII<h3>
+                    		<img src="ascii.jpg">
+                    </section>
+
+                    <section>
+                    	<h3>Binary<h3>
+                    		<img src="Binary.png" height="600">
+                    </section>
+                    
+                    <section>
+                    	<h3>netCDF<h3>
+                    		<img src="netcdf.png">
+                    </section>
+                    <section>
+                    	<h3>HDF<h3>
+                    		<img src="hdf.jpg" >
+                    </section>
+                    <section>
+                    	<h3>Shapefiles<h3>
+                    		<img src="shapefile.png" >
+                    </section>
+                    <section>
+                    	<h3>GeoJSON<h3>
+                    		<img src="geojson.png" >
+                    </section>
+                    <section>
+                    	<h3>What data formats you use?<h3>
+                  
+                    </section>
+                </section>
+
+                <section>
+	            
+	                <section>
+					<h2>Visualize data</h2>
+					</section>
+
+                    <section>
+                    	<h3>Plots<h3>
+                    		<img src="plots.png">
+                    </section>
+
+                    <section>
+                    	<h3>Heatmaps<h3>
+                    		<img src="heatmap.png" >
+                    </section>
+                    
+                    <section>
+                    	<h3>2d plots<h3>
+                    		<img src="contourf.png" style="background-color:white;" height="500">
+                    </section>
+                    <section>
+                    	<h3>Maps<h3>
+                    		<img src="oro.png" style="background-color:white;" height="500">
+                    </section>
+                    <section>
+                    	<h3>Maps<h3>
+                    		<img src="oro2.png">
+                    </section>
+
+                </section>
+
+                <section>
+                	<h2>We use Python</h2>
+                	<img src="python.png">
+
+                </section>
+
+                <section>
+                	<h2>About you</h2>
+                	<ul>
+						<li>Name, where are you from</li>
+						<li>Your academic background (Bachelor major, Bachelor topic ...)</li>
+						<li>Your programming experience</li>
+						<li>Kind of data and data formats you usually work with?</li>
+						<li>Possible topic of the master thesis, what data and methods you goint to use for it?</li>
+					</ul>
+                </section>
+
+                <section>
+                	<h2>Let's see what you kow about the ocean</h2>
+                </section>
+
+                <section>
+                	<section>
+                		<h2>What part of the planet in % the ocean covers?</h2>
+
+                	</section>
+
+                	<section>
+                		<h2>It's about 71%</h2>
+                		<img src="waterplanet.gif">
+
+                	</section>
+                </section>
+
+                <section>
+                	<section>
+                		<h2>How many oceans on the Earth?
+                		</h2>
+                	</section>
+
+                	<section>
+                		<h2>Depends on how you count
+                		</h2>
+                		<img src="World_ocean_map.gif">
+                	</section>
+                </section>
+
+                <section>
+                	<section>
+                		<h2>How deep is the ocean (average depth)?
+                		</h2>
+
+                	</section>
+                	<section>
+                		<h2>About 3700 meters
+                		</h2>
+                		<img src="hypso.png">
+
+                	</section>
+
+                	<section>
+                		<h2>The deepest place in the ocean?
+                		</h2>
+                	</section>
+
+                	<section>
+                		<h2>Mariana trench, about 11000 meters
+                		</h2>
+                		<img src="Marianatrenchmap.png" height="500">
+                	</section>
+
+                </section>
+
+                <section>
+                	<section>
+                		<h5>Here is the bathymetry map of the North Atlantic. What is this thing in the middle of the ocean?
+                		</h5>
+                		<img src="atlantic.jpg" height="500">
+                	</section>
+                	<section>
+                		<h5>Mid ocean ridge
+                		</h5>
+                		<img src="mor.jpg" height="500">
+                	</section>
+                	
+                	<section>
+                		<h5>Plate tectonics
+                		</h5>
+                		<img src="plates.svg" height="500">
+                	</section>
+
+                	<section>
+                		<h5>Age of the ocean crust
+                		</h5>
+                		<img src="age.jpg" height="500">
+                	</section>
+
+                </section>
+
+                <section>
+                	<h2>What is temperature of the ocean?</h2>
+                </section>
+
+
+                
+
+
+				<section>
+					<h2>Hello There</h2>
+					<p>
+						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
+					</p>
+				</section>
+
+				
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
